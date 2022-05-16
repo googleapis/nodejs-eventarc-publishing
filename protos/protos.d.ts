@@ -67,7 +67,7 @@ export namespace google {
                     namespace Publisher {
 
                         /**
-                         * Callback as used by {@link google.cloud.eventarc.publishing.v1.Publisher#publishChannelConnectionEvents}.
+                         * Callback as used by {@link google.cloud.eventarc.publishing.v1.Publisher|publishChannelConnectionEvents}.
                          * @param error Error, if any
                          * @param [response] PublishChannelConnectionEventsResponse
                          */
@@ -2449,6 +2449,9 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
+            /** FieldOptions unverifiedLazy */
+            unverifiedLazy?: (boolean|null);
+
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -2479,6 +2482,9 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
+
+            /** FieldOptions unverifiedLazy. */
+            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
